@@ -8,7 +8,7 @@ rp_module_desc="3ds emulator"
 rp_module_help="ROM Extension: .zip\n\nCopy your MAME roms to  $romdir/3ds"
 rp_module_licence="GPL2 https://github.com/citra-emu/citra/blob/master/license.txt"
 rp_module_section="exp"
-rp_module_flags="!arm arm !armv7"
+rp_module_flags="!arm"
 
 function depends_citra() {
     if compareVersions $__gcc_version lt 7; then
